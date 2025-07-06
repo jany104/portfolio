@@ -9,9 +9,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-  document.querySelectorAll('.flip-card').forEach(card => {
-    card.addEventListener('click', () => {
-      card.querySelector('.flip-card-inner').classList.toggle('flipped');
-    });
-  });
-
